@@ -7,3 +7,4 @@ uvicorn
 python-dotenv
 langchain-google-genai
 pandas
+langchain-community 
