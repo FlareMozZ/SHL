@@ -55,7 +55,7 @@ def process_row(row):
 def initialize_components():
     """Initialize all system components"""
     # Load and process data
-    df = pd.read_csv("../data/data.csv")
+    df = pd.read_csv("./data/data.csv")
     documents = [process_row(row) for _, row in df.iterrows()]
 
     # Initialize embeddings
